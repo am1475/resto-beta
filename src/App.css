@@ -1,0 +1,201 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('./assets/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+/* About section styles */
+.about {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Menu section styles */
+.menu {
+  background-color: #fafafa;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  width: 250px;
+  text-align: left;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+}
+
+.menu-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-item span {
+  font-weight: bold;
+}
+
+/* Contact section styles */
+.contact {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact form div {
+  margin-bottom: 1rem;
+}
+
+.contact form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact form button:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+  color: #ccc;
+}
+/* In your CSS file */
+.main-content {
+  padding-top: 64px; /* Adjust this value if your navbar height is different */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 56px; /* Adjust this value if your navbar height is different on smaller screens */
+  }
+}
